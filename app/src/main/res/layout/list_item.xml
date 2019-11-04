@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:paddingBottom="20dp"
+    android:paddingBottom="10dp"
     android:id="@+id/listItem"
     android:orientation="horizontal">
 
@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="30dp"
+        android:paddingBottom="10dp"
         android:background="@drawable/shape"
         android:outlineSpotShadowColor="@color/text">
         <TextView
@@ -23,7 +23,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:padding="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
             android:textSize="20dp"/>
 
         <TextView
@@ -33,8 +34,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:padding="10dp"
-            android:textSize="20dp"
+            android:paddingTop="2dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="22dp"
             android:textStyle="bold"/>
 
     </LinearLayout>

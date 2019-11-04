@@ -8,39 +8,15 @@
     android:padding="16dp"
     android:background="@drawable/gradasi"
     tools:context="com.magang.testrimbunesia.DetailPlayerActivity">
-    <TextView
-        android:text="Nama Pemain :"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="#f5f5f5"
-        />
-    <TextView
-        android:text="No"
-        android:id="@+id/tvNo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:textColor="#f5f5f5" />
 
     <TextView
-        android:text="Club :"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="#f5f5f5"
-        />
-    <TextView
-        android:text="Nama"
-        android:id="@+id/tvNama"
+        android:text="Detail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="40dp"
+        android:textColor="@color/text"
         android:textStyle="bold"
-        android:textColor="#f5f5f5"/>
+        android:paddingBottom="10dp"/>
 
     <TextView
         android:text="Category :"
@@ -48,7 +24,7 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:textColor="#f5f5f5"
+        android:textColor="@color/text"
         />
     <TextView
         android:text="category"
@@ -56,15 +32,53 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="40dp"
-        android:textStyle="bold"
-        android:textColor="#f5f5f5"
+        android:textColor="@color/text"
         />
+
+    <TextView
+        android:text="Club :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/text"
+        />
+    <TextView
+        android:text="Nama"
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/text"/>
+
+    <TextView
+        android:text="Nama Pemain :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/text"
+        />
+    <TextView
+        android:text="No"
+        android:id="@+id/tvNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:text="Pemain Lain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/text"
+        android:paddingTop="15dp"/>
 
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         />
 
 </LinearLayout>
