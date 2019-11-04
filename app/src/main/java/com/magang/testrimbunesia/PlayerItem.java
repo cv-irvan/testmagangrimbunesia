@@ -26,17 +26,6 @@ public class PlayerItem implements Parcelable {
         return category;
     }
 
-    public void setNo(String club) {
-        this.club = club;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setCategory(String category) {
-        this.category= category;
-    }
 
     @Override
     public int describeContents() {
@@ -51,8 +40,6 @@ public class PlayerItem implements Parcelable {
 
     }
 
-    public PlayerItem(){
-    }
 
     protected PlayerItem(Parcel in ){
         this.club = in.readString();

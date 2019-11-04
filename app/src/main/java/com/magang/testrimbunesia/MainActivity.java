@@ -25,7 +25,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String JSON_URL = "http://www.json-generator.com/api/json/get/cgjUdgTnPC?indent=2";
+    private static final String JSON_URL = "http://www.json-generator.com/api/json/get/bVSknCbJSG?indent=2";
 
 
     ListView listView;
